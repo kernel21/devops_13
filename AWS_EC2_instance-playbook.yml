@@ -87,6 +87,6 @@
         with_items: "{{ ec2.instances }}"
         args:
           tags:
-            Name: ssh server
+            Name: web server
             Owner: Dmitry Ermizin
             Purpose: Create EC2 instance from ansible
