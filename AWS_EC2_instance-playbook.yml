@@ -1,5 +1,5 @@
 ---
-  - name: Provision EC2 Instance
+  - name: Provision EC2 instance
     hosts: localhost
     connection: local
     gather_facts: False
